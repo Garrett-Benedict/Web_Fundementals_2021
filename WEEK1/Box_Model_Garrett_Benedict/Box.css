@@ -1,0 +1,29 @@
+.container{
+    background-color: grey;
+    width: 700px;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+img{
+    height: 200px;
+    margin: 10px
+}
+.box1{
+    background-color: darkred;
+}
+.box2{
+    background-color: darkgoldenrod;
+}
+.box3{
+    background-color: darkblue;
+}
+.details{
+    margin: 10px;
+    justify-content: space-evenly;
+    display: flex;
+}
+p{
+    text-align: center;
+}
