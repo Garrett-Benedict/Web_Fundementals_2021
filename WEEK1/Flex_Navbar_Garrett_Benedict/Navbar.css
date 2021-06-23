@@ -1,0 +1,37 @@
+.nav{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    vertical-align: middle;
+    margin-left: 50px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 25px;
+    list-style-type: none;
+    font-size: 15pt;
+}
+
+.btn{
+    color: white;
+    border: 1px solid black;
+    background: blue;
+    font-size: 20pt;
+}
+a{
+    color: lightgray;
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+    margin-right: 15px;
+}
+.active{
+    font-weight: 800;
+    color: white;
+}
