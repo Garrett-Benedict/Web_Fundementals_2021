@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    margin: 0 auto;
+}
+
+#navbar{
+    background-color: #2a2a2a;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.nav-h1{
+    color:white;
+    margin-right: 25px;
+}
+.nav-ul{
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+.nav-btn{
+    background-color: blue;
+}
+.nav-btn > a{
+    color: white;
+    text-decoration: none;
+}
+.nav-prof{
+    font-weight: bold;
+}
+li{
+    margin-left: 20px;
+}
+li > a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.col-container{
+    display: flex;
+    justify-content: center;
+}
+.left-col{
+    display: inline-block;
+    width: 30%;
+    margin-top: 15px;
+    margin-right: 3%;
+}
+.right-col{
+    display: inline-block;
+    width: 20%;
+}
+
+
+.profile{
+    border: 3px solid gray;
+}
+.prof-body{
+    padding: 15px;
+}
+.prof-body > .prof-head , .prof-loca , .prof-para , .prof-edit{
+    margin-bottom: 10px;
+}
+.prof-back{
+    background-color: blue;
+    height: 80px;
+    padding-left: 15px;
+}
+.prof-back > img{
+    height: 80px;
+    padding-top: 40px;
+}
+.prof-head{
+    margin-top: 25px;
+}
+.map-marker{
+    height: 15px;
+}
+.prof-loca{
+    display: inline-block;
+}
+.gear-pic{
+    height: 15px;
+}
+
+
+.education{
+    margin-top: 15px;
+    border: 3px solid gray;
+}
+.ed-head{
+    color: white;
+    background-color: #2a2a2a;
+    padding: 10px;
+}
+.ed-date{
+    font-weight: lighter;
+}
+.education > .ed-head , .ed-con-head , .ed-date , .ed-info{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+
+.connection-req{
+    border: 3px solid gray;
+    margin-top: 15px;
+}
+.conn-req-head{
+    background-color: #2a2a2a;
+    padding: 10px;
+    color: white;
+}
+.number-req{
+    display: inline-block;
+    margin: 10px 20px;
+    background-color: lightgray;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: black;
+    text-align: center;
+}
+.req-head{
+    display: inline-block;
+}
+.left-col-pics{
+    height: 70px;
+    vertical-align: middle;
+}
+.check-x-div{
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 30%;
+}
+.req-pic-head{
+    display: inline-block;
+}
+.todd{
+    margin: 10px;
+}
+.phil{
+    margin: 0px 10px 10px 10px;
+}
+.todd-phil-div{
+    display: inline-block;
+}
+.check-x-1{
+    margin-bottom: 60px;
+    height: 20px;
+}
+.check-x-2{
+    height: 20px;
+    margin-bottom: 85px;
+}
+
+
+.your-connections{
+    border: 3px solid gray;
+    margin-top: 15px;
+} 
+.your-conn-numb{
+    background-color: lightgray;
+    color: black;
+    display: inline-block;
+    border-radius: 50%;
+    height: 30px;
+    width: 60px;
+    margin: 10px 10px;
+    text-align: center;
+}
+.your-conn-words{
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+.your-conn-head{
+    background-color: #2a2a2a;
+}
+.img-header-div{
+    padding: 10px;
+}
+.your-img{
+    height: 70px;
+    vertical-align: middle;
+}
+.your-img-header{
+    vertical-align: middle;
+    display: inline-block;
+}
+.your-anchor-div{
+    border-top: 3px solid gray;
+    padding: 10px;
+}
