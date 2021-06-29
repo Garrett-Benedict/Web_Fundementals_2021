@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="BTN_Clicker.css">
+    <script src="BTN_Clicker.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="navbar">
+            <h1 class="navhead">Dojonary</h1>
+            <input type="text" placeholder="Search">
+            <button onclick="logoff(this)" class="navbtn">Login</button>
+        </div>
+        <div class="col-container">
+            <div class="def-col">
+                <div class="def-1">
+                    <div class="def-col">
+                        <h1 class="def-head">ninja</h1>
+                        <h3 class="def-sub">noun</h3>
+                        <h3 class="def-sub">Plural: <span class="plural-def">ninjas</span></h3>
+                        <button onclick="alert('Ninja has been liked')" class="def-btn">Like</button>
+                    </div>
+                    <div class="def-para">
+                        <p class="def">A practitioner skilled in the<br> 
+                        <a href="#">Japanese</a > art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="def-2">
+                    <div class="def-col">
+                        <h1 class="def-head">ninja</h1>
+                        <h3 class="def-sub">noun</h3>
+                        <h3 class="def-sub">Plural: <span class="plural-def">ninjas</span></h3>
+                        <button onclick="alert('Ninja has been liked')" class="def-btn"><a href="#">Like</a></button>
+                    </div>
+                    <div class="def-para">
+                        <p class="def">A <a href="#">programmer</a> who breaks<br>
+                        down problems with <a href="#">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="add-def">
+                    <p class="add-para">Dojonary is<br>
+                    defined by <span class="add-you">YOU</span><br>
+                    <button onclick="removedef(this)" class="add-def-btn">Add Defenition</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
